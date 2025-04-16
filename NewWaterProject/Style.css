@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background: url('https://previews.123rf.com/images/onyxprj/onyxprj1904/onyxprj190400103/121220392-aqua-advertizing-natural-mineral-liquid-water-drops-commercial-poster-merchandising-plastic-bottle.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f0f9ff;
+  color: #222;
+}
+
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1562088440-8d3d1287b8b5?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+section {
+  padding: 60px 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#services ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.project-gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project {
+  background-color: #caf0f8;
+  padding: 20px;
+  flex: 1;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 200px;
+}
+
+footer {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
